@@ -1,0 +1,14 @@
+<suite name="cross browser test">
+- <test name="onfirefox">
+<parameter name="browser" value="firefox"/>
+<classes>
+<class name="gridpractice.GridTest2"/>
+</classes>
+</test>
+<test name="onchrome">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="gridpractice.GridTest2"/>
+</classes>
+</test>
+</suite>

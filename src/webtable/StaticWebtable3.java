@@ -1,0 +1,41 @@
+package webtable;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.internal.ProfilesIni;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class StaticWebtable3 {
+
+	FirefoxDriver driver;
+	@BeforeMethod
+	 public void setup(){
+	ProfilesIni pr= new ProfilesIni();
+	FirefoxProfile fp = new FirefoxProfile();
+	fp=pr.getProfile("myprofile");
+    driver = new FirefoxDriver(fp);
+	driver.get("http://www.timeanddate.com/worldclock/");
+	 }
+	@Test
+	public void sampleWebTableTest()
+	{
+	WebElement table=driver.findElement(By.xpath("html/body/div[1]/div[7]/section[2]/div[1]/table"));
+	List<WebElement> row=table.findElements(By.tagName("tr"));
+	
+	for(int i=0;i<row.size();i++)
+	{
+		List<WebElement> cols=row.get(i).findElements(By.tagName("td"));
+		for(int j=0;j<cols.size();j++)
+		{
+			System.out.print(cols.get(j).getText());
+		}
+		System.out.println();
+	}
+	}
+
+}

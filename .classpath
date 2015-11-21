@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/old downloads/selenium-server-standalone-2.47.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://seleniumhq.github.io/selenium/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/sai naresh/Desktop/New folder/dom4j-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sai naresh/Desktop/New folder/poi-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sai naresh/Desktop/New folder/poi-examples-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sai naresh/Desktop/New folder/poi-excelant-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sai naresh/Desktop/New folder/poi-ooxml-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sai naresh/Desktop/New folder/poi-ooxml-schemas-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sai naresh/Desktop/New folder/poi-scratchpad-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sai naresh/Desktop/New folder/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sai naresh/Downloads/ojdbc14(1).jar"/>
+	<classpathentry kind="lib" path="D:/seleniumjar/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

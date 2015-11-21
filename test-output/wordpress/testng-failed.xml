@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [wordpress]">
+  <test name="validatewordpressinvalidlogin(failed)">
+    <classes>
+      <class name="com.wordpress.testcases.ValidateWordPressValidLogin">
+        <methods>
+          <include name="validatevalidLogin"/>
+        </methods>
+      </class> <!-- com.wordpress.testcases.ValidateWordPressValidLogin -->
+    </classes>
+  </test> <!-- validatewordpressinvalidlogin(failed) -->
+</suite> <!-- Failed suite [wordpress] -->

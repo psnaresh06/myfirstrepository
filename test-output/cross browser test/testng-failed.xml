@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [cross browser test]">
+  <test name="onfirefox(failed)">
+    <classes>
+      <class name="facebook.FacebookLogin">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- facebook.FacebookLogin -->
+    </classes>
+  </test> <!-- onfirefox(failed) -->
+</suite> <!-- Failed suite [cross browser test] -->

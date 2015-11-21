@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [rummycircle]">
+  <parameter name="browser" value="firefox"/>
+  <test name="rummycircletest on firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="rummycircle.RummycircleLogin">
+        <methods>
+          <include name="rummycircleLogin"/>
+        </methods>
+      </class> <!-- rummycircle.RummycircleLogin -->
+    </classes>
+  </test> <!-- rummycircletest on firefox(failed) -->
+</suite> <!-- Failed suite [rummycircle] -->

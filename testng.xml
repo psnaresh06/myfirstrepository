@@ -1,0 +1,13 @@
+<suite name="wordpress"  >
+<test name="validatewordpressinvalidlogin">
+<classes>
+
+<class name="com.wordpress.testcases.ValidateWordPressValidLogin"/>
+
+
+</classes>
+</test>
+
+
+
+</suite>

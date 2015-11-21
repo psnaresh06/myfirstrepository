@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]">
+  <test name="cookies(failed)">
+    <classes>
+      <class name="webtable.StaticWebtable">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- webtable.StaticWebtable -->
+      <class name="cookiestest.CookiesTesting">
+        <methods>
+          <include name="setup"/>
+          <include name="cookiesTest"/>
+        </methods>
+      </class> <!-- cookiestest.CookiesTesting -->
+    </classes>
+  </test> <!-- cookies(failed) -->
+</suite> <!-- Failed suite [suite1] -->
